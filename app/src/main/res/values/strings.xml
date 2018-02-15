@@ -6,6 +6,7 @@
     <string name="detail_place_of_origin_label">PLACE OF ORIGIN</string>
     <string name="detail_description_label">DESCRIPTION</string>
     <string name="detail_ingredients_label">INGREDIENTS</string>
+    <string name="detail_image_label">IMAGE</string>
 
     <!-- Content descriptions-->
     <string name="sandwich_picture_content_description">Sandwich picture</string>

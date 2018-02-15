@@ -3,7 +3,6 @@ package com.udacity.sandwichclub;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,8 +23,6 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
-        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
         final Intent intent = getIntent();
 
@@ -76,28 +73,29 @@ public class DetailActivity extends AppCompatActivity {
 
     private void populateUI(Sandwich sandwich) {
 
-        ((TextView) findViewById(R.id.description_tv)).setText(sandwich.getDescription());
-        ((TextView) findViewById(R.id.ingredients_tv)).setText(listToString(sandwich.getIngredients()));
+        // Description
+        if (sandwich.getDescription().isEmpty())
+            findViewById(R.id.description_cv).setVisibility(View.GONE);
+        else
+            ((TextView) findViewById(R.id.description_tv)).setText(sandwich.getDescription());
 
-        if (sandwich.getPlaceOfOrigin().isEmpty()) {
+        // Ingredients
+        if (sandwich.getIngredients().isEmpty())
+            findViewById(R.id.ingredients_cv).setVisibility(View.GONE);
+        else
+            ((TextView) findViewById(R.id.ingredients_tv)).setText(listToString(sandwich.getIngredients()));
 
-            findViewById(R.id.origin_tv).setVisibility(View.GONE);
-            findViewById(R.id.origin_title_tv).setVisibility(View.GONE);
-
-        } else {
-
+        // Place Of Origin
+        if (sandwich.getPlaceOfOrigin().isEmpty())
+            findViewById(R.id.origin_cv).setVisibility(View.GONE);
+        else
             ((TextView) findViewById(R.id.origin_tv)).setText(sandwich.getPlaceOfOrigin());
-        }
 
-        if (sandwich.getAlsoKnownAs().isEmpty()) {
-
-            findViewById(R.id.also_known_tv).setVisibility(View.GONE);
-            findViewById(R.id.also_known_title_tv).setVisibility(View.GONE);
-
-        } else {
-
+        // Also Known As
+        if (sandwich.getAlsoKnownAs().isEmpty())
+            findViewById(R.id.also_known_cv).setVisibility(View.GONE);
+        else
             ((TextView) findViewById(R.id.also_known_tv)).setText(listToString(sandwich.getAlsoKnownAs()));
-        }
     }
 
     /**
