@@ -10,3 +10,11 @@ Through this project, you will:
 - Designing an activity layout.
 - Populating fields in a layout.
 
+## Screenshots
+
+![Screenshot 0](http://oi63.tinypic.com/30uzlzr.jpg)
+
+![Screenshot 1](https://pasteboard.co/H7ULf1g.png)
+
+![Screenshot 2](http://oi68.tinypic.com/awtbvl.jpg)
+
