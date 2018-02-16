@@ -14,7 +14,7 @@ Through this project, you will:
 
 ![Screenshot 0](http://oi63.tinypic.com/30uzlzr.jpg)
 
-![Screenshot 1](https://serving.photos.photobox.com/7629040707d127dffe045c7ddde5ab7749ccb2e70ea0d57b2a02d668d3991d06157928db.jpg)
+![Screenshot 1](https://serving.photos.photobox.com/030150754c2d5833469418875ce0474de964f0a6e3d0e9c3182dff96b01f132b55b3d5a9.jpg)
 
 ![Screenshot 2](http://oi68.tinypic.com/awtbvl.jpg)
 
