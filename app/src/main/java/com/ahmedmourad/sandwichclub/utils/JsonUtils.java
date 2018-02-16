@@ -1,6 +1,6 @@
-package com.udacity.sandwichclub.utils;
+package com.ahmedmourad.sandwichclub.utils;
 
-import com.udacity.sandwichclub.model.Sandwich;
+import com.ahmedmourad.sandwichclub.model.Sandwich;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -35,12 +35,12 @@ public class JsonUtils {
             // json name object
             final JSONObject nameObject = sandwichObject.getJSONObject(KEY_NAME);
 
-            sandwich.setMainName(nameObject.getString(KEY_MAIN_NAME));
+            sandwich.setMainName(nameObject.optString(KEY_MAIN_NAME));
             sandwich.setAlsoKnownAs(jsonStringArrayToStringList(nameObject.getJSONArray(KEY_ALSO_KNOWN_AS)));
 
-            sandwich.setPlaceOfOrigin(sandwichObject.getString(KEY_PLACE_OF_ORIGIN));
-            sandwich.setDescription(sandwichObject.getString(KEY_DESCRIPTION));
-            sandwich.setImage(sandwichObject.getString(KEY_IMAGE));
+            sandwich.setPlaceOfOrigin(sandwichObject.optString(KEY_PLACE_OF_ORIGIN));
+            sandwich.setDescription(sandwichObject.optString(KEY_DESCRIPTION));
+            sandwich.setImage(sandwichObject.optString(KEY_IMAGE));
             sandwich.setIngredients(jsonStringArrayToStringList(sandwichObject.getJSONArray(KEY_INGREDIENTS)));
 
         } catch (JSONException e) {
@@ -56,6 +56,7 @@ public class JsonUtils {
 
     /**
      * converts a JSONArray of Strings to a String List
+     *
      * @param array the JSONArray to covert
      * @return the String List
      */

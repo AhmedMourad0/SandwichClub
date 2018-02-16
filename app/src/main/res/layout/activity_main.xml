@@ -4,5 +4,5 @@
     android:id="@+id/sandwiches_listview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.udacity.sandwichclub.MainActivity" />
+    tools:context="com.ahmedmourad.sandwichclub.MainActivity" />
 
