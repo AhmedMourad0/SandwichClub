@@ -14,7 +14,7 @@ Through this project, you will:
 
 ![Screenshot 0](http://oi63.tinypic.com/30uzlzr.jpg)
 
-![Screenshot 1](https://pasteboard.co/H7ULf1g.png)
+![Screenshot 1](https://www.photobox.co.uk/my/photo/full?photo_id=500584779381)
 
 ![Screenshot 2](http://oi68.tinypic.com/awtbvl.jpg)
 
