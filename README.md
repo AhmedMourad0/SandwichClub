@@ -1,7 +1,7 @@
 # Sandwich Club Project
 
 ## Project Overview
-This's a project for the Android Developer Nanodegree Program
+This's a project for the Android Developer Nanodegree Program.
 
 ## Project Demonstrated Concepts
 Through this project, you will:
