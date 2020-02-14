@@ -4,7 +4,7 @@
 Sandwich Club is an app that show cases some of the most delicious sandwiches from all over the world.
 
 ## Key Concepts
-- Manually parsing JSON to model objects.
+- Manually parsing JSON into model objects.
 
 ## Screenshots
 
