@@ -1,20 +1,16 @@
 # Sandwich Club Project
 
 ## Project Overview
-This's a project for the Android Developer Nanodegree Program.
+Sandwich Club is an app that show cases some of the most delicious sandwiches from all over the world.
 
-## Project Demonstrated Concepts
-Through this project, you will:
-- Submitting projects for review.
-- Practicing JSON parsing to a model object.
-- Designing an activity layout.
-- Populating fields in a layout.
+## Key Concepts
+- Manually parsing JSON to model objects.
 
 ## Screenshots
 
-![Screenshot 0](http://oi63.tinypic.com/30uzlzr.jpg)
+![Screenshot 0](https://drive.google.com/open?id=1sYcWOnZMzZCZybvPDiwyP7RHTD2d5DjM)
 
-![Screenshot 1](https://serving.photos.photobox.com/030150754c2d5833469418875ce0474de964f0a6e3d0e9c3182dff96b01f132b55b3d5a9.jpg)
+![Screenshot 1](https://drive.google.com/open?id=115Uj2cL415AlkOAlLqw4oOrX5HfcgKYA)
 
-![Screenshot 2](http://oi68.tinypic.com/awtbvl.jpg)
+![Screenshot 2](https://drive.google.com/open?id=1rcY1qKI01N9Dw1mpyCBjnqh3sVlwng7o)
 
